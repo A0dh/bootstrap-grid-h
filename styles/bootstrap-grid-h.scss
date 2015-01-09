@@ -1,0 +1,69 @@
+/*!
+  @Author Andrej Burcev
+  @Description Bootstrap responsive squares and rectangles
+*/
+
+@import "vars";
+@import "../bower_modules/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
+
+$bgh-screens: xs sm md lg;
+
+.h-content {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin make-grid-boxes() {
+  $list: '';
+  $i: 1;
+  $list: ".h";
+  $list2: ".h > div";
+  @for $i from 1 through $grid-columns {
+    @each $screen in $bgh-screens {
+      $list: "#{$list}, .h-#{$screen}-#{$i}";
+      $list2: "#{$list2}, .h-#{$screen}-#{$i} > div";
+    }
+  }
+  #{$list} {
+    overflow: hidden;
+    padding:  0;
+  }
+  #{$list2} {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: ($grid-gutter-width / 2);
+  }
+}
+
+@mixin calc-grid-box($span, $screen) {
+  .col-#{$screen}-#{$span}.h, .h-#{$screen}-#{$span} {
+    padding-bottom: percentage(($span / $grid-columns));
+  }
+}
+
+@mixin make-screen-grid-box($screen) {
+  @for $span from 1 through $grid-columns {
+    @include calc-grid-box($span, $screen);
+  }
+}
+
+@include make-grid-boxes();
+@include make-screen-grid-box(xs);
+@media (min-width: $screen-sm) {
+  @include make-screen-grid-box(sm);
+}
+@media (min-width: $screen-md) {
+  @include make-screen-grid-box(md);
+}
+@media (min-width: $screen-lg) {
+  @include make-screen-grid-box(lg);
+}

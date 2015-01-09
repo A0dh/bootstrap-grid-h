@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Test bootstrap responsive rectangles</title>
+    <link rel="stylesheet" href="dist/bootstrap.css"/>
+    <link rel="stylesheet" href="dist/bootstrap-grid-h.css"/>
+    <style>
+        .h-content.orange {
+            background-color: #F27D16;
+        }
+        .h-content.brown {
+            background-color: #733119;
+        }
+        .h-content.white {
+            background-color: #F2F2F2;
+        }
+        .h-content.blue {
+            background-color: #255950;
+        }
+        body {
+            background-color: #646464;
+            color: #FFF;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1 class="text-center">
+    Simple demonstration
+</h1>
+<p class="text-center">
+    Start resizing the window to see <strong>bootstrap-grid-h</strong> in action
+</p>
+
+<div class="col-xs-6 col-sm-5 col-md-3 h-xs-6 h-sm-4 h-md-3">
+    <div>
+        <div class="h-content white"></div>
+    </div>
+</div>
+
+<div class="pull-right col-xs-6 col-sm-2 col-md-4 h-xs-6 h-sm-4 h-md-3">
+    <div>
+        <div class="h-content blue"></div>
+    </div>
+</div>
+
+<div class="col-xs-6 col-sm-5 h-xs-6 h-sm-2 h-md-1">
+    <div>
+        <div class="h-content brown"></div>
+    </div>
+</div>
+
+<div class="col-xs-6 col-sm-5 h-xs-6 h-sm-2">
+    <div>
+        <div class="h-content orange"></div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

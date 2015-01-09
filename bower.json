@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-grid-h",
+  "version": "1.0",
+  "homepage": "https://github.com/A0dh/bootstrap-grid-h",
+  "description": "Bootstrap responsive squares and rectangles",
+  "main": "styles/bootstrap-grid-h.css",
+  "keywords": [
+    "bootstrap",
+    "responsive square",
+    "responsive squares",
+    "bootstrap extension"
+  ],
+  "authors": [
+    "Andrej Burcev <andrej.burcev@yahoo.co.uk>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-grid-h",
+  "version": "1.0.0",
+  "description": "Bootstrap responsive squares and rectangles",
+  "author": "Andrej Burcev <andrej.burcev@yahoo.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/A0dh/bootstrap-grid-h/issues"
+  },
+  "homepage": "https://github.com/A0dh/bootstrap-grid-h",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-csso": "^0.2.9",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-size": "^1.2.0",
+    "run-sequence": "^1.0.2"
+  }
+}
