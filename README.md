@@ -1,13 +1,13 @@
 # bootstrap-grid-h
-h1. Bootstrap responsive squares and rectangles
+#Bootstrap responsive squares and rectangles
 
 It is a pretty simple and very useful responsive squares extension to bootstrap. 
 
-h2. Dependencies
+##Dependencies
 
 Bootstrap
 
-h2. Syntax
+##Syntax
 
 Usage syntax is similar to bootstrap syntax: `h, h-xs-1, h-sm-12`, etc.
 There should be always present bootstrap `col-...` classes in order to create responsive rectangle
@@ -15,9 +15,9 @@ There should be always present bootstrap `col-...` classes in order to create re
 **Important**
 If you need to create rectangles, do not use h class in conjuction with h-... classes.
 
-h2. Examples
+##Examples
 
-h3. Create responsive square
+###Create responsive square
 
 Simply add class h to the bootstrap `col-...` class, for example
 
@@ -26,7 +26,7 @@ Simply add class h to the bootstrap `col-...` class, for example
 
 This will create responsive square for the screens covered by col classes
  
-h3. Create responsive rectangle
+###Create responsive rectangle
 
 Here you have to specify span (row count) for each required screen. For example:
 
