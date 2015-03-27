@@ -5,7 +5,11 @@ It is a pretty simple and very useful responsive squares extension to bootstrap.
 
 ##Dependencies
 
-Bootstrap
+Bootstrap grid component with core variables and mixins
+
+## Note
+
+If you just need a css file without diving into the actual code, you can find full and minfied versions in dist/ folder
 
 ##Syntax
 
