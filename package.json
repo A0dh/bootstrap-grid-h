@@ -8,6 +8,10 @@
     "url": "https://github.com/A0dh/bootstrap-grid-h/issues"
   },
   "homepage": "https://github.com/A0dh/bootstrap-grid-h",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A0dh/bootstrap-grid-h.git"
+  },
   "devDependencies": {
     "coffee-script": "^1.8.0",
     "gulp": "^3.8.10",
