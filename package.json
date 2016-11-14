@@ -7,10 +7,10 @@
   "bugs": {
     "url": "https://github.com/A0dh/bootstrap-grid-h/issues"
   },
-  "homepage": "https://github.com/A0dh/bootstrap-grid-h",
+  "homepage": "https://github.com/A0dh/bootstrap-grid-h#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/A0dh/bootstrap-grid-h.git"
+    "url": "https://github.com/A0dh/bootstrap-grid-h"
   },
   "devDependencies": {
     "coffee-script": "^1.8.0",
