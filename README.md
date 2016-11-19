@@ -1,6 +1,8 @@
 # bootstrap-grid-h
 #Bootstrap responsive squares and rectangles
 
+[Demo](http://a0dh.github.io/bootstrap-grid-h/)
+
 It is a pretty simple and very useful responsive squares extension to bootstrap. 
 
 ##Dependencies
